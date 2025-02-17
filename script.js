@@ -22,8 +22,8 @@ const noTexts = [
   "？你认真的吗…",
   "要不再想想？",
   "不许选这个！ ",
-  "我会很伤心…",
-  "不行:(",
+  "我看你是胆儿肥了…",
+  "打死你:(",
 ];
 
 // No 按钮点击事件
@@ -57,8 +57,8 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
-  username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
+const loveTest = `算你识相，没错，我就是最好的主人  ${
+  username ? `${safeUsername}  ` : ""
 }`;
 
 yesButton.addEventListener("click", function () {
