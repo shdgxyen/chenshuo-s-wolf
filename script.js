@@ -57,7 +57,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `算你识相，没错，我就是最好的主人  ${
+const loveTest = `哼，算你识相  ${
   username ? `${safeUsername}  ` : ""
 }`;
 
